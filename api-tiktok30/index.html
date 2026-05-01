@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 30th Strike Tiktok, Adee Uti 🔥</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- AUDIO -->
+  <audio id="bgMusic" loop src="assets/semua-aku-dirayakan.mp3"></audio>
+
+  <!-- MUSIC TOGGLE -->
+  <button class="music-btn" id="musicToggle" title="Play/Pause Musik">
+    <span class="music-icon">♪</span>
+    <span class="music-label">Musik</span>
+  </button>
+
+  <!-- PARTICLE CANVAS -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- FLOATING PETALS -->
+  <div class="petals-container" id="petals"></div>
+
+  <!-- ===== SCENE 1: INTRO ===== -->
+  <section class="scene" id="scene-intro">
+    <div class="intro-wrapper">
+      <div class="intro-number">30</div>
+      <div class="intro-content">
+        <p class="intro-label">Merayakan</p>
+        <h1 class="intro-name">Api Tiktok</h1>
+        <p class="intro-subtitle">Tiga puluh hari perjalanan<br>yang terus bersinar</p>
+      </div>
+      <div class="scroll-hint">
+        <span>Gulir ke bawah</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCENE 2: SYUKUR ===== -->
+  <section class="scene" id="scene-syukur">
+    <div class="scene-inner">
+      <div class="tag">✦ Rasa Syukur</div>
+      <h2 class="scene-heading">Betapa Beruntungnya Abang</h2>
+      <div class="prose-block">
+        <p class="prose">
+          Di antara sekian banyak perjalanan hidup yang bisa saja terjadi,
+          semesta memilih untuk mempertemukan kita.
+        </p>
+        <p class="prose">
+          Mengenalmu bukan sekadar keberuntungan &mdash;
+          itu adalah hadiah yang aku syukuri setiap harinya.
+          Kamu hadir dengan caramu yang unik, hangat, dan tak tergantikan.
+        </p>
+        <p class="prose italic">
+          "Terima kasih sudah ada di dunia ini,
+          dan terima kasih sudah mau aku kenal."
+        </p>
+      </div>
+      <div class="ornament-row">
+        <span>✦</span><span>✦</span><span>✦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCENE 3: TIMELINE / KENANGAN ===== -->
+  <section class="scene" id="scene-kenangan">
+    <div class="scene-inner wide">
+      <div class="tag">✦ Perjalanan Kita</div>
+      <h2 class="scene-heading">Momen yang Tak Terlupakan</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-emoji">🌸</span>
+            <p class="tl-text">Saat pertama kali aku benar-benar mengenalmu — aku tahu, ini bukan pertemuan biasa.</p>
+          </div>
+        </div>
+        <div class="tl-item right">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-emoji">☕</span>
+            <p class="tl-text">Obrolan-obrolan panjang yang mengalir begitu mudah, seolah waktu tak pernah ingin berhenti.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-emoji">🌙</span>
+            <p class="tl-text">Malam-malam di mana kehadiranmu terasa seperti cahaya di tengah gelapku.</p>
+          </div>
+        </div>
+        <div class="tl-item right">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-emoji">🎶</span>
+            <p class="tl-text">Tawa, lagu, dan semua hal kecil yang menjadikan setiap hari bersamamu terasa istimewa.</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-emoji">✨</span>
+            <p class="tl-text">Hari ini — hari di mana kamu memasuki babak baru yang lebih indah: 30 tahun.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCENE 4: HARAPAN ===== -->
+  <section class="scene" id="scene-harapan">
+    <div class="scene-inner">
+      <div class="tag">✦ Harapan</div>
+      <h2 class="scene-heading">Untuk Hari-hari ke Depan</h2>
+
+      <div class="wish-grid">
+        <div class="wish-card">
+          <div class="wish-icon">🌿</div>
+          <h3>Kesehatan</h3>
+          <p>Semoga tubuh dan jiwamu selalu dalam keadaan terbaik, terjaga dan berbahagia.</p>
+        </div>
+        <div class="wish-card">
+          <div class="wish-icon">⭐</div>
+          <h3>Mimpi</h3>
+          <p>Semua impian yang kamu simpan — semoga satu per satu menemukan jalannya ke kenyataan.</p>
+        </div>
+        <div class="wish-card">
+          <div class="wish-icon">💛</div>
+          <h3>Cinta</h3>
+          <p>Semoga kamu selalu dikelilingi cinta yang tulus, dari orang-orang yang benar-benar berarti.</p>
+        </div>
+        <div class="wish-card">
+          <div class="wish-icon">🤝</div>
+          <h3>Bersama</h3>
+          <p>Dan semoga kita — tetap berjalan beriringan dalam apapun yang datang.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SCENE 5: PENUTUP / CLIMAX ===== -->
+  <section class="scene" id="scene-climax">
+    <div class="climax-inner">
+      <div class="big-30">30</div>
+      <h2 class="climax-title">Selamat Merayakan API ke-30,</h2>
+      <h1 class="climax-name">Adee Sayangg</h1>
+      <p class="climax-sub">
+        Kamu bukan hanya dirayakan hari ini.<br>
+        <em>Semua dirimu, selalu dirayakan.</em>
+      </p>
+
+      <!-- FOTO KITA -->
+      <div class="kita-photo-wrap">
+        <div class="kita-photo-frame">
+          <img src="assets/kita.jpeg" alt="Kita berdua" class="kita-photo" />
+        </div>
+        <p class="kita-caption">🔥 30 hari streak — 30 alasan untuk terus bersama ✨</p>
+      </div>
+
+      <div class="heart-burst" id="heartBurst"></div>
+      <button class="celebrate-btn" id="celebrateBtn">🎊 Rayakan! 🎊</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
